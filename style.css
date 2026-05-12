@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.glavniy1{
+    display: flex;
+    align-items: center;
+   
+}
+.glavniy2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.video{
+    display: flex;
+}
+.glavniy3{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+input{
+    border-radius: 10px;
+    padding: 10px;
+}
+.seriaa{
+    border-radius: 10px;
+}
+button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.sur{
+    width: 70px;
+}
+.sura{
+    width: 90px;
+}
+.surat{
+    width: 30px;
+}
+.surat1{
+    width: 50px;
+}
+.surat3{
+    width: 30px;
+}
+.surat4{
+    width: 30px;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.secr{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 50px;
+    justify-content: center;
+}
+.soziee{
+    width: 900px;
+    border-radius: 20px;
+    flex: 3;
+    margin: 5px;
+}
+.sidebar{
+    gap: 10px;
+}
+.dseria{
+    flex: 1;
+    display: flex;
+    margin-bottom: 10px;
+    gap: 15px;
+}
+.seym{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.ava{
+    border-radius: 10px;
+    width: 30px;
+}
+.h2{
+    font-size: 30px;
+}
+.but{
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    
+}
+.dseria{
+display: flex;
+align-items: center;
+gap: 10px ;
+}
+.seriaa{
+    width: 400px;
+    
+}
+@media(max-width:700px){
+    input{
+ display: none;
+    }
+    .video{ flex-direction: column;
+    }
+    .soziee{
+ width: 250px;
+    }
+    .sidebar{
+        margin-top: 10px;
+    }
+    .avatar{
+        margin: 5px;
+    }
+    .surat1{
+        display: none;
+    }
+    .surat3{
+        display: none;
+    }
+    .hamu{
+        font-size: 8px;
+    }
+    .secr{
+        flex-direction: column;
+    }
+    .ava{
+        width: 20px;
+    }
+    .but{
+        padding: 5px 10px;
+          background-color: red;
+    }
+    .seriaa{
+        width: 200px;
+        border-radius: 10px;
+    }
+    .h2{
+        font-size: 18px;
+        
+    }
+    .pp{
+        font-size: 15px;
+    }
+    .dseria{
+        flex-direction: column;
+    }
+
+}
